@@ -1,0 +1,70 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+
+  li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: green;
+
+  }
+
+  h1{
+
+    text-align: center;
+    font-size: 55px;
+  }
+
+  h4 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .about p{
+    text-align: center;
+    
+  }
+  .pic {
+    border-radius: 50%;
+  }
+
+  footer{
+    position: fixed;
+    bottom: 0%;
+    background-color: #000;
+    width:100%;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  .social-icons a{
+    margin: 0 10px;
+  }
+body{
+  background-color: black;
+  color:white;
+}
